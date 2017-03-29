@@ -39,12 +39,18 @@ section .parallax-bg {
 
 /* navbar */
 
-nav {
+nav .nav-wrapper {
     color: #fff;
     background-color: #dddddd;
     width: 100%;
-    position: fixed;
 }
+
+
+ul#nav-mobile li a {
+    text-transform: uppercase;
+}
+
+
 
 /* footer */
 

@@ -17,18 +17,18 @@
 <body>
             <!-- navbar -->
 <nav>
-    <div class="navbar-fixed">
-        <a href="#!" class="brand-logo center"><img src="img/logo_V.resized.png"></a>
+    <div class="nav-wrapper">
+        <a href="#Accueil" class="brand-logo center"><img src="img/logo_V.resized.png"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </div>
 </nav>      <!-- navbar -->
-<section class="parallax-container">
+<div id="Accueil" class="parallax-container">
     <div class="parallax"><img src="img/accueil1.jpeg"></div>
-</section>
+</div>
 
 <section class="parallax-bg">
     <div class="row container">
@@ -36,14 +36,18 @@
     </div>
 </section>
 
-<section class="section white">
-    <div class="row container">
-        <h2 class="header">Parallax</h2>
-        <p>Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus architecto est excepturi impedit iure numquam, pariatur praesentium quaerat recusandae tenetur totam voluptatem. Aliquam assumenda fugit illum repudiandae, suscipit voluptates!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut dicta distinctio esse fuga incidunt ipsa natus quae quam repellat? Ab aliquid eaque est officia officiis quasi sint vero voluptatibus!</p>
+<div id="Service" class="section white">
+    <div class="container">
+        <div class="row">
+            <div class="col l12 center">
+                <h3 class="header">Service</h3>
+                    <p>Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus architecto est excepturi impedit iure numquam, pariatur praesentium quaerat recusandae tenetur totam voluptatem. Aliquam assumenda fugit illum repudiandae, suscipit voluptates!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut dicta distinctio esse fuga incidunt ipsa natus quae quam repellat? Ab aliquid eaque est officia officiis quasi sint vero voluptatibus!</p>
+            </div>
+        </div>
     </div>
-</section>
+</div>
 
 <section class="parallax-container">
     <div class="parallax"><img src="img/centre.jpeg"></div>
@@ -51,7 +55,7 @@
 
             <!-- footer -->
 <footer class="page-footer">
-    <div class="section" id="Contact">
+    <div class="page" id="Contact">
         <div class="container">
             <div class="row">
                 <div class="col l12 center">
@@ -83,7 +87,7 @@
 </footer>   <!-- footer -->
 </body>
 <!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-<script src="custom.js"></script>
+<script type="text/javascript" src="custom.js"></script>
 </html>
