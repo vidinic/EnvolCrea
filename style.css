@@ -39,10 +39,11 @@ section .parallax-bg {
 
 /* navbar */
 
-nav .nav-wrapper {
+nav .navbar-fixed {
     color: #fff;
     background-color: #dddddd;
     width: 100%;
+    position: fixed;
 }
 
 
