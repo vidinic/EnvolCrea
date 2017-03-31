@@ -17,7 +17,7 @@ section .parallax-container img {
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: 650px;
+    height: 700px;
 }
 
 section .parallax-bg {
@@ -84,6 +84,21 @@ ul#nav-mobile li a {
     left: 20px;
 }
 
+/* card services */
+
+.card-panel1 {
+    transition: box-shadow .25s;
+    padding: 24px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 55px;
+    background-color: rgb(55, 45, 98);
+    height: 350px;
+}
+
+.teal {
+    background-color: rgb(177, 207, 251) !important;
+}
+
 /* card contact */
 
 .card-panel {
@@ -91,7 +106,7 @@ ul#nav-mobile li a {
     padding: 24px;
     margin: 0.5rem 0 1rem 0;
     border-radius: 55px;
-    background-color: rgb(95, 141, 211);
+    background-color: rgb(177, 207, 251);
     height: 260px;
 }
 
@@ -117,9 +132,9 @@ a#cRetour{
     -webkit-backface-visibility: hidden;
     text-decoration: none;
 }
-a#cRetour:before{ content: "\25b2"; }
+
 a#cRetour:hover{
-    background:rgba(0, 0, 0, 1);
+    background: rgb(232, 232, 232);
     transition:all ease-in 0.2s;
 }
 a#cRetour.cInvisible{
