@@ -1,43 +1,12 @@
 /* effet parallax */
 
-section .parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255,255,255,.9);
-}
-
-section .parallax-container img {
-    display: block;
-    transform: translate3d(-50%, 208px, 0px);
-    height: 600px;
-    Z-index: 1000;
-}
-
-.parallax-container {
-    position: relative;
-    overflow: hidden;
-    height: 700px;
-}
-
-section .parallax-bg {
-    z-index: 0;
-}
-
 .row {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 160px;
+    margin-bottom: 50px;
 }
 
-.parallax img {
-    display: none;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    min-width: 0;
-    min-height: 0;
-}
+
 
 /* navbar */
 
@@ -95,9 +64,6 @@ ul#nav-mobile li a {
     height: 350px;
 }
 
-.teal {
-    background-color: rgb(177, 207, 251) !important;
-}
 
 /* card contact */
 
@@ -148,3 +114,8 @@ a#cRetour.cVisible{
     opacity:1;
 }
 
+img.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: auto;
+    padding-top: 90px;
+}
