@@ -1,5 +1,12 @@
 /* effet parallax */
 
+.parallax-container {
+    position: relative;
+    overflow: visible;
+    height: 500px;
+}
+
+
 .row {
     margin-left: auto;
     margin-right: auto;
@@ -10,19 +17,11 @@
 
 /* navbar */
 
-nav .navbar-fixed {
-    color: #bdbdbd;
+.nav-wrapper {
     background-color: #5f8dd3;
     width: 100%;
     position: fixed;
 }
-
-
-ul#nav-mobile li a {
-    text-transform: uppercase;
-}
-
-
 
 /* footer */
 
@@ -84,7 +83,6 @@ a {
 
 a#cRetour{
     border-radius:3px;
-    padding:10px;
     font-size:15px;
     text-align:center;
     color:#fff;
@@ -110,12 +108,11 @@ a#cRetour.cInvisible{
 }
 
 a#cRetour.cVisible{
-    bottom:20px;
+    bottom:10px;
     opacity:1;
 }
 
-img.responsive-img, video.responsive-video {
+img.responsive-img {
     max-width: 100%;
     height: auto;
-    padding-top: 90px;
 }

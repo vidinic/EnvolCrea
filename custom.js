@@ -23,6 +23,12 @@ $(document).ready(function() {
     }
 });
 
+/* menu hamburger */
+
+jQuery(document).ready(function ($) {
+    $(".button-collapse").sideNav();
+});
+
 /* bouton bas de page */
 
 document.addEventListener('DOMContentLoaded', function() {
