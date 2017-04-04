@@ -1,11 +1,12 @@
-$(document).ready(function(){
-    $('.parallax').parallax();
-});
+
 
 
 /* scroll de navigation */
 
 $(document).ready(function() {
+    $(".button-collapse").sideNav();
+    $('.parallax').parallax();
+    $(".dropdown-button").dropdown();
     $('#nav li a').click(function () {
         $('#nav li a').removeClass('active');
         $(this).addClass('active');
@@ -23,11 +24,8 @@ $(document).ready(function() {
     }
 });
 
-/* menu hamburger */
 
-jQuery(document).ready(function ($) {
-    $(".button-collapse").sideNav();
-});
+
 
 /* bouton bas de page */
 
