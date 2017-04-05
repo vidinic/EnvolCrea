@@ -16,10 +16,10 @@ $(document).ready(function() {
     });
 
     function scrollTo(target) {
-        if ($(target).length >= 1) {
+        if ($(target).length >=1) {
             height = $(target).offset().top;
         }
-        $('html, body').animate({scrollTo: height}, 1200);
+        $('html, body').animate({scrollTo: height}, 600);
         return false;
     }
 });

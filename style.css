@@ -3,7 +3,7 @@
 .parallax-container {
     position: relative;
     overflow: visible;
-    height: 500px;
+    height: 600px;
 }
 
 
@@ -17,8 +17,8 @@
 
 /* navbar */
 
-.nav-wrapper {
-    background-color: #5f8dd3;
+.navbar-fixed {
+    background-color: #5f8dd3 !important;
     width: 100%;
     position: fixed;
 }
@@ -115,4 +115,12 @@ a#cRetour.cVisible{
 img.responsive-img {
     max-width: 100%;
     height: auto;
+}
+
+img.logo.responsive-img {
+    margin-top: 150px;
+}
+
+.material-icons {
+    font-size: 50px;
 }
