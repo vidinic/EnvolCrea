@@ -21,6 +21,7 @@
     background-color: #5f8dd3 !important;
     width: 100%;
     position: fixed;
+    text-transform: uppercase;
 }
 
 /* footer */
@@ -124,3 +125,37 @@ img.logo.responsive-img {
 .material-icons {
     font-size: 50px;
 }
+
+/* texte haut de page */
+
+
+h1 {
+    font-family: 'Roboto', cursive;
+    color: #e6f2ff;
+    font-weight: 800;
+    text-align: center;
+    font-size: 330%;
+    text-transform: uppercase;
+    text-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+    line-height: 1.2;
+    margin-top: -30px;
+    background: url(https://static.pexels.com/photos/147504/pexels-photo-147504.jpeg)
+    repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    animation: txtfill 5s linear infinite;
+    -webkit-animation: txtfill 30s linear infinite;
+
+}
+@keyframes txtfill {
+    0% {
+        background-position: 0% 5%;
+    }
+    100% {
+        background-position: 100% 5%;
+    }
+}/*animation rules*/
+
+
+
