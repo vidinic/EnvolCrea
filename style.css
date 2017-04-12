@@ -74,6 +74,7 @@
     border-radius: 55px;
     background-color: rgb(177, 207, 251);
     height: 260px;
+    color: #5f8dd3;
 }
 
 a {
@@ -139,7 +140,7 @@ h1 {
     text-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
     line-height: 1.2;
     margin-top: -30px;
-    background: url(https://static.pexels.com/photos/147504/pexels-photo-147504.jpeg)
+    background: url("img/image_defile.jpeg")
     repeat;
 
     -webkit-background-clip: text;
@@ -155,7 +156,12 @@ h1 {
     100% {
         background-position: 100% 5%;
     }
-}/*animation rules*/
+}
+
+h4 {
+    font-family: 'Courgette', cursive;
+    color: #5f8dd3;
+}
 
 
 

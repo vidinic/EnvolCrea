@@ -1,6 +1,3 @@
-
-
-
 /* scroll de navigation */
 
 $(document).ready(function() {
